@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <body>
+        <div class="scoreboard">
+            <p>Rock, Paper, Scissors</p>
+            <p id="playerTitle">Player</p><p id="computerTitle">Computer</p>
+            <div id="playerScore" class="scores"></div>
+            <div id="computerScore" class="scores"></div>
+            <input id="choiceRock" type="button" value="Rock" class="choices" onclick="game('rock')"/>
+            <input id="choicePaper" type="button" value="Paper" class="choices" onclick="game('paper')"/>
+            <input id="choiceScissors" type="button" value="Scissors" class="choices" onclick="game('scissors')"/>
+            <p id="tiesTitle">Ties: <p id="ties"></p></p>
+            <p id="combatLog"></p>
+        </div>
+        <script src=script.js></script>
+    </body>
+</head>
+</html>

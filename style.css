@@ -1,0 +1,92 @@
+.scoreboard {
+    font-size: 32px;
+    text-align: center;
+    position:relative;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.scores {
+    font-size: 24px;
+    line-height: 100px;
+    vertical-align: middle;
+    text-align: center;
+    top: 125px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#playerScore {
+    left: 100px;
+}
+
+#computerScore {
+    right: 100px;
+}
+
+#playerTitle {
+    position: absolute;
+    font-size: 18px;
+    left: 126px;
+    top: 75px;
+}
+
+#computerTitle {
+    position: absolute;
+    font-size: 18px;
+    right: 116px;
+    top: 75px;
+}
+
+#tiesTitle {
+    position: absolute;
+    font-size: 18px;
+    top: 220px;
+    left: 215px;
+}
+
+#ties {
+    position: absolute;
+    font-size: 18px;
+    top: 220px;
+    left: 260px;
+}
+
+.choices {
+    position: absolute;
+    top: 280px;
+    width: 75px;
+}
+
+#choiceRock {
+    left: 125px;
+}
+
+#choicePaper {
+    left: 213px;
+}
+
+#choiceScissors {
+    right: 125px;
+}
+
+#combatLog {
+    position: relative;
+    font-size: 18px;
+    top: 250px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
